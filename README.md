@@ -1,6 +1,6 @@
-# vuedemo 访jon-millent的小米商城
+# vuedemo 
 
-> A Vue.js project
+> 访jon-millent的小米商城
 
 ## Build Setup
 
