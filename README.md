@@ -1,6 +1,6 @@
-# vuedemo 
+# vue实例
 
-> 访jon-millent的小米商城   
+> 访jon-millent的小米商城  
 
 ## Build Setup
 
