@@ -1,4 +1,4 @@
-# vuedemo
+# vuedemo 访jon-millent的小米商城
 
 > A Vue.js project
 
