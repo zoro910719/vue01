@@ -67,7 +67,7 @@ export default {
 
         this.getProductList();
 
-        //this.test();//可跨域
+        this.test();//可跨域,直接修改config/index.js的proxyTable
     },
     methods:{
         getProductList(){
@@ -84,14 +84,14 @@ export default {
                 console.info(error);
             })
         },
-        // test(){
-        //     axios.get("http://localhost:2738/Bill/GetBillType")
-        //     .then(response=>{
-        //         console.info(response);
-        //     }).catch(error=>{
+        test(){
+            axios.get("/api/api/course/GetTest?user_id=&course_id=1+2")
+            .then(response=>{
+                console.info(response);
+            }).catch(error=>{
 
-        //     })
-        // },
+            })
+        },
     },
 }
 </script>
